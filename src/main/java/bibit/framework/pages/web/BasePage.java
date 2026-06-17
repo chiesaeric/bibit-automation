@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import bibit.framework.config.ConfigReader;
+
 
 
 public class BasePage {
@@ -24,12 +26,15 @@ public class BasePage {
     ){
 
         this.driver = driver;
+        long wait = Long.parseLong(ConfigReader.get("web.timeout"));
 
         this.wait =
             new WebDriverWait(
                 driver,
-                Duration.ofSeconds(20)
+                Duration.ofSeconds(wait)
             );
+
+            
 
     }
 
