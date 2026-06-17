@@ -1,4 +1,10 @@
 # Bibit Automation Framework
+![Java](https://img.shields.io/badge/Java-17+-blue)
+![Maven](https://img.shields.io/badge/Maven-3.9+-orange)
+![Selenium](https://img.shields.io/badge/Selenium-Web-green)
+![Appium](https://img.shields.io/badge/Appium-Mobile-purple)
+![RestAssured](https://img.shields.io/badge/RestAssured-API-red)
+![Allure](https://img.shields.io/badge/Allure-Reporting-yellow)
 
 ## Overview
 
