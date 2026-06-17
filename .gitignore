@@ -1,0 +1,36 @@
+# Maven
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Allure
+allure-results/
+allure-report/
+
+# Appium
+appium.log
+
+# Environment
+.env
+
+# Screenshots
+screenshots/
+
+# Generated Reports
+test-output/
+surefire-reports/
+
+# Compiled
+*.class
