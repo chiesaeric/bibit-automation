@@ -1,13 +1,13 @@
 package bibit.framework.objects.mobile;
 
+import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.WebElement;
 
-import io.appium.java_client.pagefactory.AndroidFindBy;
-
+/** Cart object class for mobile cart page. */
 public class CartObject {
 
-        public final String COLOR_LOCATOR = "//android.widget.ImageView[@content-desc='%s color']";
-        
+        public final String locatorColor = "//android.widget.ImageView[@content-desc='%s color']";
+
         @AndroidFindBy(xpath = "//android.widget.ImageView[@content-desc=\"Increase item quantity\"]")
         public WebElement btnIncrease;
 
@@ -37,13 +37,13 @@ public class CartObject {
 
         @AndroidFindBy(id = "com.saucelabs.mydemoapp.android:id/countryET")
         public WebElement iptCountry;
-        
+
         @AndroidFindBy(id = "com.saucelabs.mydemoapp.android:id/paymentBtn")
         public WebElement btnPayment;
 
         @AndroidFindBy(id = "com.saucelabs.mydemoapp.android:id/nameET")
         public WebElement iptCardName;
-        
+
         @AndroidFindBy(id = "com.saucelabs.mydemoapp.android:id/cardNumberET")
         public WebElement iptNoCard;
 
@@ -61,5 +61,4 @@ public class CartObject {
 
         @AndroidFindBy(xpath = "//android.widget.TextView[@resource-id=\"com.saucelabs.mydemoapp.android:id/completeTV\"]")
         public WebElement txtSuccess;
-
 }
