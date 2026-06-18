@@ -503,6 +503,9 @@ The framework automatically:
 
 ---
 
+### Automation Demo
+![Automation](docs/gift/e2e-run.gif)
+
 # Author
 
 **Erik Enrico Chiesa**
