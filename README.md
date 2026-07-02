@@ -451,7 +451,6 @@ The framework automatically:
 * GET
 * POST
 * PUT
-* PATCH
 * DELETE
 
 ### Features
